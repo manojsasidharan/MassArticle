@@ -1,0 +1,156 @@
+{
+	"_version": "1.12.0",
+	"sap.app": {
+		"id": "Ingles.AddOn.MaterialMassMaintenance",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.38.11"
+		},
+		"dataSources": {
+			"materialsSource": {
+				"uri": "data/materials.json",
+				"type": "JSON"
+			},
+			"massupdateSource": {
+				"uri": "data/massupdatepreview.json",
+				"type": "JSON"
+			},
+			"testdata": {
+				"uri": "data/testdata.json",
+				"type": "JSON"
+			}
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"flexEnabled": false,
+		"rootView": {
+			"viewName": "Ingles.AddOn.MaterialMassMaintenance.view.FlexibleColumnLayout",
+			"type": "XML",
+			"async": true,
+			"id": "fcl"
+		},
+		"dependencies": {
+			"minUI5Version": "1.60.1",
+			"libs": {
+				"sap.ui.layout": {},
+				"sap.ui.core": {},
+				"sap.m": {},
+				"sap.f": {}
+			}
+		},
+		"config": {
+			"fullWidth": true
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "Ingles.AddOn.MaterialMassMaintenance.i18n.i18n"
+				}
+			},
+			"materials": {
+				"type": "sap.ui.model.json.JSONModel",
+				"dataSource": "materialsSource"
+			},
+			"massUpdatePreview": {
+				"dataSource": "massupdateSource",
+				"type": "sap.ui.model.json.JSONModel"
+			},
+			"testData": {
+				"dataSource": "testdata",
+				"type": "sap.ui.model.json.JSONModel"
+			}
+		},
+		"resources": {
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.f.routing.Router",
+				"viewType": "XML",
+				"async": true,
+				"viewPath": "Ingles.AddOn.MaterialMassMaintenance.view",
+				"controlId": "fcl",
+				"transition": "slide"
+			},
+			"routes": [
+				{
+					"pattern": ":layout:",
+					"name": "master",
+					"target": [
+						"master"
+					]
+				},
+				{
+					"pattern": "detail/{layout}",
+					"name": "detail",
+					"target": [
+						"master",
+						"detail"
+					]
+				},
+				{
+					"pattern": "detailDetail/{layout}",
+					"name": "detailDetail",
+					"target": [
+						"detailMaster",
+						"detailDetail"
+					]
+				}
+			],
+			"targets": {
+				"master": {
+					"viewName": "MaterialSearch",
+					"controlAggregation": "beginColumnPages"
+				},
+				"detail": {
+					"viewName": "MaterialList",
+					"controlAggregation": "midColumnPages"
+				},
+				"detailMaster": {
+					"viewName": "MaterialList",
+					"controlAggregation": "beginColumnPages"
+				},
+				"detailDetail": {
+					"viewName": "SearchReplace",
+					"controlAggregation": "midColumnPages"
+				}
+			}
+		}
+	},
+	"sap.platform.abap": {
+		"uri": "/sap/bc/ui5_ui5/aplx/matlmassmntc",
+		"_version": "1.1.0"
+	}
+}

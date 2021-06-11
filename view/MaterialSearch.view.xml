@@ -1,0 +1,230 @@
+<mvc:View controllerName="Ingles.AddOn.MaterialMassMaintenance.controller.MaterialSearch" xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+	xmlns="sap.m" xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout"
+	xmlns:core="sap.ui.core" >
+	<Page title="{i18n>title}">
+		<content>
+			
+			<f:SimpleForm
+			editable="true"
+			layout="ResponsiveGridLayout"
+			title="Filter Conditions"
+			adjustLabelSpan="false"
+			columnsXL="1"
+			columnsL="1"
+			columnsM="1"
+			singleContainerFullSize="false" >
+			<f:content>
+				<Label fieldGroupIds="lbl"  text="Purchase Group" wrapping="false">
+					<layoutData>
+						<l:GridData span="XL2 L2 M2 S4" />
+					</layoutData>
+				</Label>
+				<ComboBox selectedKey="{Country}">
+					<items>
+						<core:Item text="C" key="C"/>
+						<core:Item text="F" key="F"/>
+					</items>
+					<layoutData>
+						<l:GridData span="XL3 L3 M3 S8" />
+					</layoutData>
+				</ComboBox>
+				<!--<Text text=""><layoutData><l:GridData span="XL1 L1 M1 S12" /></layoutData></Text>-->
+					
+				<Label fieldGroupIds="lbl"  text="Ingles Matl. #" wrapping="false">
+					<layoutData>
+						<l:GridData span="XL2 L2 M2 S4" />
+					</layoutData>
+				</Label>
+				<Input value="IM10">
+					<layoutData>
+						<l:GridData span="XL1 L1 M1 S3" />
+					</layoutData>
+				</Input>
+				<Label textAlign="Center"  text="To" wrapping="false">
+					<layoutData>
+						<l:GridData span="XL1 L1 M1 S2" />
+					</layoutData>
+				</Label>
+				<Input value="IM10">
+					<layoutData>
+						<l:GridData span="XL1 L1 M1 S3" />
+					</layoutData>
+				</Input>
+				<Text text=""><layoutData><l:GridData span="XL2 L2 M2 S12" /></layoutData></Text>
+				
+				<Label fieldGroupIds="lbl"  text="Material Status" wrapping="false">
+					<layoutData>
+						<l:GridData span="XL2 L2 M2 S4" />
+					</layoutData>
+				</Label>
+				<ComboBox selectedKey="{Country}">
+					<items>
+						<core:Item text="C" key="C"/>
+						<core:Item text="F" key="F"/>
+					</items>
+					<layoutData>
+						<l:GridData span="XL3 L3 M3 S8" />
+					</layoutData>
+				</ComboBox>
+				<!--<Text text=""><layoutData><l:GridData span="XL1 L1 M1 S12" /></layoutData></Text>-->
+				
+				<Label fieldGroupIds="lbl"  text="UPC" wrapping="false">
+					<layoutData>
+						<l:GridData span="XL2 L2 M2 S4" />
+					</layoutData>
+				</Label>
+				<Input value="20355">
+					<layoutData>
+						<l:GridData span="XL3 L3 M3 S8" />
+					</layoutData>
+				</Input>
+				<Text text=""><layoutData><l:GridData span="XL2 L2 M2 S12" /></layoutData></Text>
+				
+				<Label fieldGroupIds="lbl"  text="Vendor" wrapping="false">
+					<layoutData>
+						<l:GridData span="XL2 L2 M2 S4" />
+					</layoutData>
+				</Label>
+				<ComboBox selectedKey="{Country}">
+					<items>
+						<core:Item text="C" key="C"/>
+						<core:Item text="F" key="F"/>
+					</items>
+					<layoutData>
+						<l:GridData span="XL3 L3 M3 S8" />
+					</layoutData>
+				</ComboBox>
+				<!--<Text text=""><layoutData><l:GridData span="XL1 L1 M1 S12" /></layoutData></Text>-->
+				
+				<Label fieldGroupIds="lbl"  text="Vendor Item #" wrapping="false">
+					<layoutData>
+						<l:GridData span="XL2 L2 M2 S4" />
+					</layoutData>
+				</Label>
+				<Input value="IM10">
+					<layoutData>
+						<l:GridData span="XL1 L1 M1 S3" />
+					</layoutData>
+				</Input>
+				<Label textAlign="Center"  text="To" wrapping="false">
+					<layoutData>
+						<l:GridData span="XL1 L1 M1 S2" />
+					</layoutData>
+				</Label>
+				<Input value="IM10">
+					<layoutData>
+						<l:GridData span="XL1 L1 M1 S3" />
+					</layoutData>
+				</Input>
+				<Text text=""><layoutData><l:GridData span="XL2 L2 M2 S12" /></layoutData></Text>
+				
+				<Label fieldGroupIds="lbl"  text="Merch. Category" wrapping="false">
+					<layoutData>
+						<l:GridData span="XL2 L2 M2 S4" />
+					</layoutData>
+				</Label>
+				<ComboBox selectedKey="{Country}">
+					<items>
+						<core:Item text="C" key="C"/>
+						<core:Item text="F" key="F"/>
+					</items>
+					<layoutData>
+						<l:GridData span="XL3 L3 M3 S8" />
+					</layoutData>
+				</ComboBox>
+				<!--<Text text=""><layoutData><l:GridData span="XL1 L1 M1 S12" /></layoutData></Text>-->
+				
+				<Label fieldGroupIds="lbl"  text="Size" wrapping="false">
+					<layoutData>
+						<l:GridData span="XL2 L2 M2 S4" />
+					</layoutData>
+				</Label>
+				<Input value="">
+					<layoutData>
+						<l:GridData span="XL1 L1 M1 S3" />
+					</layoutData>
+				</Input>
+				<Label fieldGroupIds="lbl"  text="Pack" wrapping="false">
+					<layoutData>
+						<l:GridData span="XL1 L1 M1 S2" />
+					</layoutData>
+				</Label>
+				<Input value="">
+					<layoutData>
+						<l:GridData span="XL1 L1 M1 S3" />
+					</layoutData>
+				</Input>
+				<Text text=""><layoutData><l:GridData span="XL2 L2 M2 S12" /></layoutData></Text>
+				
+				<Label fieldGroupIds="lbl"  text="Buyer" wrapping="false">
+					<layoutData>
+						<l:GridData span="XL2 L2 M2 S4" />
+					</layoutData>
+				</Label>
+				<ComboBox selectedKey="{Country}">
+					<items>
+						<core:Item text="C" key="C"/>
+						<core:Item text="F" key="F"/>
+					</items>
+					<layoutData>
+						<l:GridData span="XL3 L3 M3 S8" />
+					</layoutData>
+				</ComboBox>
+				<!--<Text text=""><layoutData><l:GridData span="XL1 L1 M1 S12" /></layoutData></Text>-->
+				
+				<Label fieldGroupIds="lbl"  text="Location Code" wrapping="false">
+					<layoutData>
+						<l:GridData span="XL2 L2 M2 S4" />
+					</layoutData>
+				</Label>
+				<Input value="">
+					<layoutData>
+						<l:GridData span="XL1 L1 M1 S3" />
+					</layoutData>
+				</Input>
+				<Label fieldGroupIds="lbl"  text="To" wrapping="false">
+					<layoutData>
+						<l:GridData span="XL1 L1 M1 S2" />
+					</layoutData>
+				</Label>
+				<Input value="">
+					<layoutData>
+						<l:GridData span="XL1 L1 M1 S3" />
+					</layoutData>
+				</Input>
+				<Text text=""><layoutData><l:GridData span="XL2 L2 M2 S12" /></layoutData></Text>
+				
+				<Label fieldGroupIds="lbl"  text="Department" wrapping="false">
+					<layoutData>
+						<l:GridData span="XL2 L2 M2 S4" />
+					</layoutData>
+				</Label>
+				<ComboBox selectedKey="{Country}">
+					<items>
+						<core:Item text="C" key="C"/>
+						<core:Item text="F" key="F"/>
+					</items>
+					<layoutData>
+						<l:GridData span="XL3 L3 M3 S8" />
+					</layoutData>
+				</ComboBox>
+				<Text text=" ">
+					<layoutData>
+						<l:GridData span="XL1 L1 M1 S12" />
+					</layoutData>
+				</Text>
+			</f:content>
+		</f:SimpleForm>
+			
+		</content>
+		<footer>
+			<OverflowToolbar>
+				<content>
+					<ToolbarSpacer></ToolbarSpacer>
+					<Button type="Transparent" icon="sap-icon://reset" text="Reset"></Button>
+					<Button type="Emphasized" icon="sap-icon://filter" text="Filter" press="onSearchPress" ></Button>
+				</content>
+			</OverflowToolbar>
+		</footer>
+	</Page>
+</mvc:View>

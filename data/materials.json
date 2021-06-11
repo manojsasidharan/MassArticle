@@ -1,0 +1,17 @@
+[
+	{"PurchaseGroup":"40", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "3420", "Description": "PLANTERS LT.SLT.MX.NUTS", "PrimaryUPC": "2900001", "Status": "Active"},
+	{"PurchaseGroup":"40", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "3422", "Description": "PLANTERS LT.SLT.DR.PNUT", "PrimaryUPC": "2900007", "Status": "Active"},
+	{"PurchaseGroup":"40", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "3495", "Description": "PLANTERS CASHEW HALVES/PIECES", "PrimaryUPC": "2900001", "Status": "Active"},
+	{"PurchaseGroup":"40", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "3497", "Description": "PLANTERS HNY.R.P.NUT", "PrimaryUPC": "2900007", "Status": "Active"},
+	{"PurchaseGroup":"40", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "3506", "Description": "PLANTERS MIXED NUTS", "PrimaryUPC": "2900001", "Status": "Active"},
+	{"PurchaseGroup":"40", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "3512", "Description": "PLANTERS COCKTAIL NUT", "PrimaryUPC": "2900007", "Status": "Active"},
+	{"PurchaseGroup":"40", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "3513", "Description": "PLANTERS COCKTL P NUT", "PrimaryUPC": "2900007", "Status": "Active"},
+	{"PurchaseGroup":"40", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "3516", "Description": "PLANTERS SPANISH PNU", "PrimaryUPC": "2900007", "Status": "Active"},
+	{"PurchaseGroup":"40", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "3519", "Description": "PLANTERS D.R.PEANUTS", "PrimaryUPC": "2900007", "Status": "Active"},
+	{"PurchaseGroup":"40", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "3880", "Description": "WERTHERS ORIGINAL", "PrimaryUPC": "7279900", "Status": "Active"},
+	{"PurchaseGroup":"41", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "4006", "Description": "ATKINSON PEANUT BUTTER BARS ", "PrimaryUPC": "1168110", "Status": "Active"},
+	{"PurchaseGroup":"41", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "4120", "Description": "REESE PEANUT BUTTER 6 PACK", "PrimaryUPC": "3400049", "Status": "Active"},
+	{"PurchaseGroup":"41", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "4132", "Description": "HERSHEY MILK CHOCOLATE 6 PACK", "PrimaryUPC": "3400029", "Status": "Active"},
+	{"PurchaseGroup":"41", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "4138", "Description": "REESES PNB.CUP SNK.SIZE", "PrimaryUPC": "3400040", "Status": "Active"},
+	{"PurchaseGroup":"41", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "4175", "Description": "SNICKERS BAR 6 PACK", "PrimaryUPC": "4000044", "Status": "Active"}
+]

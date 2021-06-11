@@ -1,0 +1,45 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	controllerName="Ingles.AddOn.MaterialMassMaintenance.controller.SearchReplace" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Mass Update Fields (Find and Replace)">
+		<subHeader>
+			<OverflowToolbar height="auto">
+				<content>
+					<Button icon="sap-icon://add-filter" text="Add Field" tooltip="Add Search Field" press="addField" />
+					<Button icon="sap-icon://multiselect-all" text="Review"  tooltip="Review Results" press="reviewMassUpdate" />
+					<ToolbarSpacer/>
+					<Button icon="sap-icon://decline" text="Cancel" tooltip="Cancel" press="cancelDetail" />
+				</content>
+			</OverflowToolbar>
+		</subHeader>
+		<content>
+			<FlexBox width="100%" direction="Column" class="SearchReplaceContent" items="{Fields>/}">
+				
+				<Panel width="100%" class="sapUiNoContentPadding SearchReplacePanel" >
+					<headerToolbar>
+						<OverflowToolbar>
+							<ComboBox>
+								<core:Item key="Location Code" text="Location Code" />
+								<core:Item key="Purchase Group" text="Purchase Group" />
+							<!--	<core:Item key="Merch. Category" text="Merch. Category" />-->
+								<core:Item key="Status" text="Status" />
+							</ComboBox>
+							<ToolbarSpacer />
+							<Button icon="sap-icon://delete" tooltip="Remove" press="removeField" />
+						</OverflowToolbar>
+					</headerToolbar>
+					<content>
+						<List>
+							<InputListItem label="Find By">
+								<Input width="150px"></Input>
+							</InputListItem>
+							<InputListItem label="Replace With">
+								<Input width="150px"></Input>
+							</InputListItem>
+						</List>
+					</content>
+				</Panel>
+			</FlexBox> 
+		</content>
+	</Page>
+</mvc:View>

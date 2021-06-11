@@ -1,0 +1,19 @@
+/* Enter your custom styles here */
+
+/*.sapUiSizeCompact .sapMPageWithHeader.sapMPageWithSubHeader>section {*/
+/*	top: 4rem;*/
+/*}*/
+
+.SearchReplaceContent .sapMFlexItem {
+	width: 100% !important;
+}
+
+.SearchReplacePanel {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.oldValuePreview {
+	color: red;
+    text-decoration: line-through;
+}

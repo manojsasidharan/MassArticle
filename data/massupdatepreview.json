@@ -1,0 +1,6 @@
+[
+	{
+		"old": {"PurchaseGroup":"41", "MerchCategory": "1014", "Location": "1014", "MaterialNo": "4132", "Description": "HERSHEY MILK CHOCOLATE 6 PACK", "PrimaryUPC": "3400029", "Status": "Active"},
+		"new": {"PurchaseGroup":"41", "MerchCategory": "1014", "Location": "2024", "MaterialNo": "4132", "Description": "HERSHEY MILK CHOCOLATE 6 PACK", "PrimaryUPC": "3400029", "Status": "Active"}
+	}
+]
