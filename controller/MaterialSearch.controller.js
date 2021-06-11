@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (Controller) {
 	"use strict";
 
-	return Controller.extend("Ingles.AddOn.MaterialMassMaintenance.controller.MaterialSearch", {
+	return Controller.extend("Ingles.Mock.MassArticle.controller.MaterialSearch", {
 		onInit: function () {
 			this.eventBus = sap.ui.getCore().getEventBus();
 		},

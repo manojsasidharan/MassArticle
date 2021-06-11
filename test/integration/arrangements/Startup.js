@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (Opa5) {
 	"use strict";
 
-	return Opa5.extend("Ingles.AddOn.MaterialMassMaintenance.test.integration.arrangements.Startup", {
+	return Opa5.extend("Ingles.Mock.MassArticle.test.integration.arrangements.Startup", {
 
 		iStartMyApp: function (oOptionsParameter) {
 			var oOptions = oOptionsParameter || {};
@@ -14,7 +14,7 @@ sap.ui.define([
 			// start the app UI component
 			this.iStartMyUIComponent({
 				componentConfig: {
-					name: "Ingles.AddOn.MaterialMassMaintenance",
+					name: "Ingles.Mock.MassArticle",
 					async: true
 				},
 				hash: oOptions.hash,

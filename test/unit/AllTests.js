@@ -1,5 +1,5 @@
 sap.ui.define([
-	"Ingles/AddOn/MaterialMassMaintenance/test/unit/controller/MaterialSearch.controller"
+	"Ingles/Mock/MassArticle/test/unit/controller/MaterialSearch.controller"
 ], function () {
 	"use strict";
 });

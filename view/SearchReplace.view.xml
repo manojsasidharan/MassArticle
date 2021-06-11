@@ -1,6 +1,6 @@
 <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
 	xmlns:l="sap.ui.layout"
-	controllerName="Ingles.AddOn.MaterialMassMaintenance.controller.SearchReplace" xmlns:html="http://www.w3.org/1999/xhtml">
+	controllerName="Ingles.Mock.MassArticle.controller.SearchReplace" xmlns:html="http://www.w3.org/1999/xhtml">
 	<Page title="Mass Update Fields (Find and Replace)">
 		<subHeader>
 			<OverflowToolbar height="auto">

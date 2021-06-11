@@ -1,7 +1,7 @@
 {
 	"_version": "1.12.0",
 	"sap.app": {
-		"id": "Ingles.AddOn.MaterialMassMaintenance",
+		"id": "Ingles.Mock.MassArticle",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
@@ -47,7 +47,7 @@
 	"sap.ui5": {
 		"flexEnabled": false,
 		"rootView": {
-			"viewName": "Ingles.AddOn.MaterialMassMaintenance.view.FlexibleColumnLayout",
+			"viewName": "Ingles.Mock.MassArticle.view.FlexibleColumnLayout",
 			"type": "XML",
 			"async": true,
 			"id": "fcl"
@@ -72,7 +72,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "Ingles.AddOn.MaterialMassMaintenance.i18n.i18n"
+					"bundleName": "Ingles.Mock.MassArticle.i18n.i18n"
 				}
 			},
 			"materials": {
@@ -100,7 +100,7 @@
 				"routerClass": "sap.f.routing.Router",
 				"viewType": "XML",
 				"async": true,
-				"viewPath": "Ingles.AddOn.MaterialMassMaintenance.view",
+				"viewPath": "Ingles.Mock.MassArticle.view",
 				"controlId": "fcl",
 				"transition": "slide"
 			},
@@ -150,7 +150,7 @@
 		}
 	},
 	"sap.platform.abap": {
-		"uri": "/sap/bc/ui5_ui5/aplx/matlmassmntc",
+		"uri": "/sap/bc/ui5_ui5/sap/zmockmassarticle",
 		"_version": "1.1.0"
 	}
 }

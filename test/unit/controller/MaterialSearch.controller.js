@@ -1,7 +1,7 @@
 /*global QUnit*/
 
 sap.ui.define([
-	"Ingles/AddOn/MaterialMassMaintenance/controller/MaterialSearch.controller"
+	"Ingles/Mock/MassArticle/controller/MaterialSearch.controller"
 ], function (Controller) {
 	"use strict";
 
